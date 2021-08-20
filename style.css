@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.01),#81260a),url(images/banner.jpg);
+    background-size:cover;
+    background-position:inherit;
+    background-repeat: repeat;
+    height: 100vh;
+
+}
+.banner-text{
+    text-align: center;
+    color : #fff;
+    padding-top:300px;
+    
+}
+.banner-text h1{
+
+    font-size:30px;
+    
+}
+.banner-text h4{
+
+    font-size: 30px;
+   
+}
+/* .banner-text p{
+    font-size:50px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+
+}
+.banner-text p{
+    opacity: 0.0;
+}
+.banner-text p:hover{
+    opacity: 1.0;
+
+    
+} */
+.banner-link{
+    margin: 20px auto 0;
+}
+.banner-link a{
+    width :150px;
+    text-decoration:none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color:#fff;
+    border:.5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition:color 0.5s;
+
+}
+.banner-link a span{
+    width: 0%;
+    height: 100%;
+    position : absolute;
+    top: 0;
+    left: 0;
+    background:#fff;
+    z-index:-1;
+    transition: 0.5s;
+}
+.banner-link a:hover span{
+    width: 100%;
+}
+.banner-link a:hover{
+    color:#000;
+}
+
+#secret{
+    width:100%;
+    padding:70px 0;
+}
+.title-text{
+    padding-top:50px;
+    text-align:center;
+    padding-bottom: 50px;
+}
+.title-text h1{
+    margin: auto;
+    font-size: 70px;
+    color:rgb(233, 85, 32);
+    font-weight: bold;
+    
+}
+#eggs{
+    background: linear-gradient(rgba(0, 0, 0, 0.01),#81260a),url(images/eggs.jpg);
+    background-size: auto;
+    background-position: inherit;
+    height: 100vh;
+}
+.title-text p{
+    font-size:100px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    opacity: 0.0;
+}   
+.title-text p:hover{
+    opacity: 1.0;
+}
+
+.ben-text{
+    text-align:center;
+    padding-bottom: 70px;
+    margin: auto;
+}
+    
+.ben-text h1{
+    font-size: 70px;
+    color:rgb(233, 85, 32);
+    font-weight: bold;
+
+}
+.ben-text p{
+    
+    font-size:50px;
+}
+
+.rec-text{
+    text-align:center;
+    padding-bottom: 70px;
+    margin: auto;
+}
+.rec-text h1{
+    font-size: 70px;
+    color:rgb(233, 85, 32);
+    font-weight: bold;
+
+}
+.rec-text p{
+    
+    font-size:50px;
+    color:black
+    
+}
+
+.poached{
+    margin: 0;
+    width: 300px;
+    size: 50px;
+}
+.fry{
+    margin: 0;
+    width: 300px;
+    size: 50px;
+
+}
+.boil{
+    margin: 0;
+    width: 300px;
+    size: 50px;
+
+}
+.scrambled{
+    margin: 0;
+    width: 300px;
+    size: 50px;
+
+}

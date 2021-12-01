@@ -1,20 +1,26 @@
 <html>
     <head>
+        <link rel = "icon" href = "images/favicon.png"> 
         <title>
-            Eat yo eggs
+            Eat yo eggs bruh
         </title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+        <style>
+            html{
+                scroll-behavior:smooth;
+            }
+        </style>
     </head>
     <body>
         <section id="banner"> 
             <div class="banner-text">
-            <h1>See that big guy at the back?</h1>
+            <h1>See that big guyyyy at the back?</h1>
             <h4>You wanna know why he's so massive?</h4>
             <div class="banner-link">
-                <a href="#"><span></span>His secret...</a>
+                <a href="#How"><span></span>His secret...</a>
             </div>
         </section> 
         <section id="How">
@@ -23,38 +29,102 @@
                 <p>Never ever skips</p>
                 <p>eggs for breakfast!</p>
             </div>
-        <section id="Benefits">
-            <div class="ben-text">
-            <h1>BENEFITS OF CONSUMING EGG(s)</h1>
-            <p>1. Literally overpowered and so broken!</p>
-            <p> Eggs are nutrient rich </p>
-            <p> High on quality protein </p>
-            <p> Calorie-dense food </p>
+        </section>
+        <section id="Why">
+            <div class="why-text">
+                <a href="#Benefits"><span></span>Why eat eggs???</a>
             </div>
         </section>
-        <section id="Egg meals">
-            <div class="rec-text">
+        <section id="Benefits">
+            <div class="ben-text">
+            <h1>1. BENEFITS OF CONSUMING EGG(s)</h1>
+            <p> i. Delicious and yummy !</p>
+            <p> ii. Eggs are rich in quality protein and other nutrients!</p>
+            <p> iii. Makes you full throughout the day! </p>
+            <p> iv. Calorie-dense food! </p>
+            <p> v. Saves you money (super affordable!)</p>
+            </div>
+
+            <div class ="how-text">
+                <a href="#cook ways"><span></span>How to cook em really???</a>
+            </div>
+        </section>
+        <section id="cook ways">
+            <div class="guide-text">
     
                 <h1>2. HOW TO COOK THEM</h1>
                 <p>Poached!</p>
-                <img class="poached"src="images/poached.jpg"alt="poached egg">
+                <!-- <img class="poached"src="images/poached.jpg"alt="poached egg"> -->
                 <p>Fry em up!</p>
-                <img class="fry"src="images/fry.jpg"alt="fried egg">
+                <!-- <img class="fry"src="images/fry.jpg"alt="fried egg"> -->
                 <p>Boil!</p>
-                <img class="boil"src="images/boil.jpg"alt="boiled egg">
+                <!-- <img class="boil"src="images/boil.jpg"alt="boiled egg"> -->
                 <p>Scrambled!</p>
-                <img class="-scrambled"src="images/scrambled.jpg"alt="-Scrambled egg">
+                <!-- <img class="-scrambled"src="images/scrambled.jpg"alt="-Scrambled egg"> -->
+                <h1>TASTY EGG PICS!</h1>
+
+        <section id ="egg pics">
+            <div class ="eggs-grid">
+        
+                <img class ="eggs-grid-col-2 eggs-grid-row-2" src="images/poached.jpg">
+                <img class ="eggs-grid-row-2" src ="images/fry.jpg">
+                <img src ="images/boil.jpg">
+                <img src ="images/eggpic1.jpg">
+                <img src ="images/eggpic2.jpg">
+                <img src ="images/eggpic3.jpg">
+                <img src ="images/eggpic4.jpg">
+                <img src ="images/eggpic5.jpg">
+                <img src ="images/eggpic6.jpg">
+
+            </div>
+        </section>
 
         <section id="price">
             <h1>Eggs are also really affordable and always available</h1>
             <h1>You can find them almost anywhere!</h1>
             <p>It does not matter what type of eggs is it, as long as you can cook it</p>
             <p>You ought to love them eggs man!</p>
-            <h3>#iloveeggs</h3>
+            <h3>#iloveeggsBRUH</h3>
         </section>
+        <div id ="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">WAYS TO COOK</a></li>
+                    <li><a href="https://eggs.ab.ca/healthy-eggs/types-of-eggs/" target="_blank">TYPES</a></li>
+                    <li><a href="https://www.countryliving.com/food-drinks/g13/cookbook-eggs-0407/" target="_blank">RECIPES</a></li>
+                    <li><a href="https://www.australianeggs.org.au/nutrition/nutrients-and-vitamins"target="_blank">NUTRITIONS</a></li>
+
+                </ul>
+            </nav>
  
             </div>
         </section>
+        <div id="menuBtn">
+            <img src="images/menu.png" id="menu">
+        </div>
+
+        
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+       
+        sideNav.style.left="-250px";
+
+        menuBtn.onclick = function()
+        {
+            if(sideNav.style.left=="-250px"){
+                sideNav.style.left ="0";
+                menu.src ="images/dot.png";
+            }
+            else{
+                sideNav.style.left = "-250px";
+                menu.src ="images/menu.png";
+            }
+
+        }
+    </script>
        
     </body>
 </html>
